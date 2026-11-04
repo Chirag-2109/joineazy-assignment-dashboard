@@ -1,0 +1,48 @@
+export const initialAssignments = [
+  {
+    id: "assignment1",
+    title: "HTML & CSS Portfolio",
+    description: "Create a personal portfolio using HTML and CSS.",
+    dueDate: "2026-11-10",
+    driveLink: "https://drive.google.com",
+    createdBy: "admin1",
+    assignedTo: ["student1", "student2", "student3", "student4", "student5"],
+    submissions: {
+      student1: true,
+      student2: false,
+      student3: true,
+      student4: false,
+      student5: false,
+    },
+  },
+  {
+    id: "assignment2",
+    title: "JavaScript Basics",
+    description: "Complete the JavaScript fundamentals assignment.",
+    dueDate: "2026-11-15",
+    driveLink: "https://drive.google.com",
+    createdBy: "admin1",
+    assignedTo: ["student1", "student2", "student3", "student4", "student5"],
+    submissions: {
+      student1: false,
+      student2: false,
+      student3: false,
+      student4: false,
+      student5: false,
+    },
+  },
+  {
+    id: "assignment3",
+    title: "React Components",
+    description: "Build reusable React components.",
+    dueDate: "2026-11-18",
+    driveLink: "https://drive.google.com",
+    createdBy: "admin2",
+    assignedTo: ["student1", "student2", "student3"],
+    submissions: {
+      student1: true,
+      student2: false,
+      student3: false,
+    },
+  },
+];
